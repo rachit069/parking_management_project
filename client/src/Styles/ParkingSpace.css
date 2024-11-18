@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.parking-section {
+  margin: 20px 0;
+}
+
+.parking-slots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.slot {
+  width: 40px;
+  height: 40px;
+  background-color: green; /* Green color for the parking slots */
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.slot:hover {
+  background-color: darkgreen; /* Darker shade on hover */
+  cursor: pointer;
+}
